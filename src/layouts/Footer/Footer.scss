@@ -1,0 +1,9 @@
+.footer {
+  padding-block: 30px 90px;
+  color: var(--color-white);
+  background-color: var(--color-accent);
+
+  &__description {
+    max-width: 600px;
+  }
+}

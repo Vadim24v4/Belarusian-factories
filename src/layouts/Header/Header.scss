@@ -1,0 +1,17 @@
+.header {
+  position: sticky;
+  top: 0;
+  padding-block: fluid(40, 20);
+  color: var(--color-white);
+  background-color: var(--color-accent);
+
+  &__menu {
+    display: flex;
+    justify-content: center;
+
+    &-list {
+      display: flex;
+      column-gap: fluid(90, 20);
+    }
+  }
+}

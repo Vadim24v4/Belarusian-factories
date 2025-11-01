@@ -1,0 +1,19 @@
+.mtz {
+  &__info {
+    height: 375px;
+    margin-block: 80px 20px;
+    padding: fluid(40, 20);
+    color: var(--color-white);
+    background-image: url('@/assets/images/mtz.jpg');
+    background-size: cover;
+    border-radius: var(--border-radius-l);
+
+    p {
+      max-width: 600px;
+    }
+  }
+
+  &__description {
+    margin-bottom: 70px;
+  }
+}
